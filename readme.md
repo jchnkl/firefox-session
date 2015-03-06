@@ -50,3 +50,9 @@ Open the script and make sure to set all required variables:
 ```
 
 Set the executable flag (`chmod +x firefox-session.sh`) and try it out!
+
+## Caveat
+
+* Use an alias for `firefox`: `alias firefox 'firefox-session <default-session>'`
+* Make sure to close all Firefox instances before updating the base profile
+* ???
