@@ -24,6 +24,11 @@ size. Even a small base image is likely to be larger than a Firefox profile.
 Most importantly though, the intention of Docker is quite different. Docker's
 main goal is isolation of processes, not sharing a common base image.
 
+## Prerequisites
+
+* [fuse](http://fuse.sourceforge.net/)
+* [unionfs-fuse](https://github.com/rpodgorny/unionfs-fuse)
+
 ## Setting up the base profile
 
 Close all running Firefox instances. Run `firefox -P` and create a new basic
