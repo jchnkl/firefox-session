@@ -1,4 +1,6 @@
-# Separate Firefox profiles with unionfs and copy on write
+# Multiple Firefox profiles with copy on write
+
+Share a basic Firefox profile across multiple instances.
 
 ## Intention
 
